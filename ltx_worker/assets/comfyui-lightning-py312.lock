@@ -1,0 +1,12 @@
+# Reviewed Lightning Studio Python 3.12 overlay for ComfyUI 0.32.0.
+# Install only with: python3 -m pip install --no-deps --require-hashes --target .packages -r FILE
+# This file intentionally contains no LTX model weights.
+comfyui-frontend-package @ https://files.pythonhosted.org/packages/fd/77/f6e2aea61ed41b6e4e9211a0354a947a1504d52982e401d1897f63024dfe/comfyui_frontend_package-1.48.7-py3-none-any.whl --hash=sha256:f193369c4248bffe0b150dca9cba5e82f7c3add6645991377a992d5036aea8e7
+comfyui-workflow-templates @ https://files.pythonhosted.org/packages/65/ce/13f2fe0eb2079a7d1effe3cfe95b0b56a31c0f7e28bac77aedae5d99e29e/comfyui_workflow_templates-0.11.41-py3-none-any.whl --hash=sha256:d5aa252aa66c1964753f92743678a21629ad8c8f01be843c72e03e0588ac30a5
+comfyui-embedded-docs @ https://files.pythonhosted.org/packages/45/6a/95761ec1c888bf64ae554225892dbf934a67dd24dc44591a066890def34e/comfyui_embedded_docs-0.5.9-py3-none-any.whl --hash=sha256:30afae432a71c96aa59421d0f37388c66ff6572b8cbeee8ff045e4d5f84f896c
+comfy-kitchen @ https://files.pythonhosted.org/packages/db/5d/7df83ccb2b3fc4b9660dd337dcc56f7c65926318ae0303840a1e5b72493d/comfy_kitchen-0.2.31-cp312-abi3-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl --hash=sha256:d7c2522e6a6cde7a7303e30d739c05989cf4b0a246684e496a129b950055d35f
+comfy-aimdo @ https://files.pythonhosted.org/packages/22/68/2e2c45204f7be352b584c26d7d3ec403a1a02c0b663dc97acf51ebef658c/comfy_aimdo-0.4.13-py3-none-any.whl --hash=sha256:92201263e58ffa1ceede2b1f4668abd0874d1cb2e4b1476ca8a0ff6971f88b8a
+blake3 @ https://files.pythonhosted.org/packages/5b/94/eafaa5cdddadc0c9c603a6a6d8339433475e1a9f60c8bb9c2eed2d8736b6/blake3-1.0.8-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl --hash=sha256:504d1399b7fb91dfe5c25722d2807990493185faa1917456455480c36867adb5
+simpleeval @ https://files.pythonhosted.org/packages/2e/9c/43d7a2845fdf72f21572a0d7c33076cb69c2c73db9a297a5bfc6b87ebb54/simpleeval-1.0.5-py3-none-any.whl --hash=sha256:c0de42a9f7849b7bc8c51338295341126f103a2a86beceffebafd9388e3cdfce
+av @ https://files.pythonhosted.org/packages/b2/7a/1305243ab47f724fdd99ddef7309a594e669af7f0e655e11bdd2c325dfae/av-16.0.1-cp312-cp312-manylinux_2_28_x86_64.whl --hash=sha256:daecc2072b82b6a942acbdaa9a2e00c05234c61fef976b22713983c020b07992
+torchaudio @ https://files.pythonhosted.org/packages/c2/a6/84d80f34472503e9eb82245d7df501c59602d75d7360e717fb9b84f91c5e/torchaudio-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl --hash=sha256:93a8583f280fe83ba021aa713319381ea71362cc87b67ee38e97a43cb2254aee

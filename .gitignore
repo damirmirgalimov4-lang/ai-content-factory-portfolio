@@ -1,0 +1,56 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.partner.example
+*.pem
+*.key
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Runtime state and private content
+runtime/
+vault/
+vault-*/
+shared-content/
+shared-content-*/
+worker-data/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+
+# Generated media and payloads
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.ogg
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.zip
+*.tar
+*.tar.gz
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

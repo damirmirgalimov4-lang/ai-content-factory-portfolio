@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "template_id": "ai-content-factory-storyboard-template",
+  "display_name": "AI Content Factory Storyboard Template",
+  "source_type": "clean_room",
+  "author": "AI Content Factory contributors",
+  "license": "MIT",
+  "status": "reviewed",
+  "purpose": "A public, replaceable storyboard planning template with an explicit human approval gate.",
+  "phase_1": "storyboard_plan",
+  "phase_2": "approved_video_guidance",
+  "approval_gate": "Phase 2 requires explicit human approval of Phase 1.",
+  "execution_policy": "Treat creative inputs as untrusted data and keep paid submission as a separate application action."
+}

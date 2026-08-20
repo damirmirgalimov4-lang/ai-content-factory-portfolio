@@ -1,0 +1,111 @@
+{
+  "manifest_sha256": "80209c0a04428c32ddef303f74e2b7d99a760699353f54b4b5c7c09fbf1d0111",
+  "models": [
+    {
+      "name": "ltx-2.3-22b-dev-fp8.safetensors",
+      "relative_path": "checkpoints/ltx-2.3-22b-dev-fp8.safetensors",
+      "repository": "Lightricks/LTX-2.3-fp8",
+      "repository_path": "ltx-2.3-22b-dev-fp8.safetensors",
+      "revision": "1d756cd27fa11c0896c4dfee093cd1bf36c7f7a1",
+      "sha256": "28606c5b5a06ce56f896d4dfcb20f212739e07a68fbe48e53638188449d26450",
+      "size_bytes": 29145431166,
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-fp8/resolve/1d756cd27fa11c0896c4dfee093cd1bf36c7f7a1/ltx-2.3-22b-dev-fp8.safetensors"
+    },
+    {
+      "name": "ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors",
+      "relative_path": "loras/ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors",
+      "repository": "Comfy-Org/ltx-2.3",
+      "repository_path": "split_files/loras/ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors",
+      "revision": "e14c0e7f46a1d68384214a3c6e6b309a382016dd",
+      "sha256": "31e0c0195fb841bf31af78e8b60858f489e87ddcea4a5239abc80943da65e3ac",
+      "size_bytes": 2741024390,
+      "url": "https://huggingface.co/Comfy-Org/ltx-2.3/resolve/e14c0e7f46a1d68384214a3c6e6b309a382016dd/split_files/loras/ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors"
+    },
+    {
+      "name": "gemma_3_12B_it_fp4_mixed.safetensors",
+      "relative_path": "text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
+      "repository": "Comfy-Org/ltx-2",
+      "repository_path": "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
+      "revision": "bd5f9c87fcb0360ae7112f9784562670894d9492",
+      "sha256": "aaca463d11e6d8d2a4bdb0d6299214c15ef78a3f73e0ef8113d5a9d0219b3f6d",
+      "size_bytes": 9447702218,
+      "url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/bd5f9c87fcb0360ae7112f9784562670894d9492/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors"
+    },
+    {
+      "name": "gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors",
+      "relative_path": "loras/gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors",
+      "repository": "Comfy-Org/ltx-2",
+      "repository_path": "split_files/loras/gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors",
+      "revision": "bd5f9c87fcb0360ae7112f9784562670894d9492",
+      "sha256": "87bcabeac9bec9f374232b5122d6511c2b2112d479e50176149e944b3712eb4a",
+      "size_bytes": 628203616,
+      "url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/bd5f9c87fcb0360ae7112f9784562670894d9492/split_files/loras/gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors"
+    },
+    {
+      "name": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "relative_path": "latent_upscale_models/ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "repository": "Lightricks/LTX-2.3",
+      "repository_path": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "revision": "6f3520585aa27248020550da2f453aa0c572398c",
+      "sha256": "5f416311fa8172b65af67530758964708d29a317b830d689a51143b7f91913ed",
+      "size_bytes": 995743560,
+      "url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/6f3520585aa27248020550da2f453aa0c572398c/ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
+    }
+  ],
+  "policy": {
+    "concurrency": 1,
+    "license": "LTX-2 Community License; legal/platform eligibility must be checked before use",
+    "paid_retries": 0,
+    "public_comfyui": false
+  },
+  "runtime": {
+    "comfyui": {
+      "archive_sha256": "f18afdaa9f97c2ddc0b906bff962de48c12f0456584e11c5dfa21e52074c639c",
+      "archive_url": "https://codeload.github.com/Comfy-Org/ComfyUI/tar.gz/ddbaa8752874c275290d054ee4fddd6e004f5fdf",
+      "commit": "ddbaa8752874c275290d054ee4fddd6e004f5fdf",
+      "repository": "Comfy-Org/ComfyUI",
+      "version": "0.32.0"
+    },
+    "frontend": "comfyui-frontend-package==1.48.7",
+    "ltx_reference": {
+      "commit": "d151147788a9284cca791edc6ce898007e727fe6",
+      "repository": "Lightricks/LTX-2",
+      "tag": "v1.2.0"
+    },
+    "python_overlay": {
+      "base_requirements": {
+        "python": "3.12",
+        "torch": "2.8.0+cu128"
+      },
+      "file": "comfyui-lightning-py312.lock",
+      "packages": {
+        "av": "16.0.1",
+        "blake3": "1.0.8",
+        "comfy-aimdo": "0.4.13",
+        "comfy-kitchen": "0.2.31",
+        "comfyui-embedded-docs": "0.5.9",
+        "comfyui-frontend-package": "1.48.7",
+        "comfyui-workflow-templates": "0.11.41",
+        "simpleeval": "1.0.5",
+        "torchaudio": "2.8.0"
+      },
+      "sha256": "cb8d5a635a258cc71b89301febfbf9529bf9775de5d00c024b726d88312d24f0",
+      "size_bytes": 2518
+    },
+    "workflow_templates": "comfyui-workflow-templates==0.11.41"
+  },
+  "schema_version": 1,
+  "total_model_bytes": 42958104950,
+  "workflow": {
+    "active_source_nodes": 50,
+    "api_file": "ltx23-i2v-api.json",
+    "api_nodes": 51,
+    "api_sha256": "f03b3482447444cf9c72272939a71295d80f49eeb6ed071385fb79bfb25e6c82",
+    "commit": "479ce174d207905a080bf4d78123adcd8ccad657",
+    "repository": "Comfy-Org/workflow_templates",
+    "server_validation": "ComfyUI 0.32.0 accepted all node types/links; validation failed only for absent pinned assets and placeholder input; queue remained empty",
+    "source_file": "video_ltx2_3_i2v.json",
+    "source_path": "templates/video_ltx2_3_i2v.json",
+    "source_sha256": "91dd8e44926fd37f6d9307789484370fa333582b14e53ed771d63ed805379ee4"
+  }
+}
